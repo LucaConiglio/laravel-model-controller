@@ -25,11 +25,11 @@
             <div class="card">
                 <img class="img-fluid" src="https://www.gaetanews24.it/news/wp-content/uploads/2018/10/video11.jpg" alt="imgae">
                 <h3 class="text-info pt-3 text-center">Titolo: {{$movie->title}}</h3>
-                <h5 class="text-center text-danger font-semibold">Movie-ID: {{$movie->id}}</h5>
-                <p class="text-center font-semibold">Nationality: {{$movie->nationality}}</p>
-                <p class="text-center font-semibold">Date: {{$movie->date}}</p>
-                <p class="text-center font-semibold">Original_title: {{$movie->original_title}}</p>
-                <p class="text-center font-semibold">Vote: {{$movie->vote}}</p>
+                <h5 class="text-center text-danger fw-semibold">Movie-ID: {{$movie->id}}</h5>
+                <p class="text-center fw-semibold">Nationality: {{$movie->nationality}}</p>
+                <p class="text-center fw-semibold">Date: {{$movie->date}}</p>
+                <p class="text-center fw-semibold">Original_title: {{$movie->original_title}}</p>
+                <p class="text-center fw-semibold">Vote: {{$movie->vote}}</p>
                 
             </div>
         </div>
